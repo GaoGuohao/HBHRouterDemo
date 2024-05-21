@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "not_found_title_color",
+      "value": "#666666"
+    },
+    {
+      "name": "not_found_desc_color",
+      "value": "#999999"
+    }
+  ]
+}
