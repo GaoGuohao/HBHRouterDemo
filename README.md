@@ -211,7 +211,8 @@ struct Index {
 最后看一下运行效果展示：
 ![run](images/harmoneyOSRouter/iShot_2024-05-21_16.55.16.gif)
 
-同样如果其他业务组件需要相互跳转，和上面主项目`entry`模块保持一样的配置即可！
+同样如果其他业务组件需要相互跳转，和上面主项目`entry`模块保持一样的配置即可！<p>
+这里需要注意的是，业务组件之间不需要相互依赖，业务组件只依赖 `hbhrouter`，对于业务组件的依赖和引入，全部放到`HAP`主项目 `entry`模块中。
 
 ## Demo示例
 github：https://github.com/GaoGuohao/HBHRouterDemo
