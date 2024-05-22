@@ -10,7 +10,7 @@
 如在App的首页Banner，需要跳转到某个商品详情页面，iOS/Android 的统一路径为：
 
 ```swift
-hbh://mall/store/detail?id=88888
+hbh://mall/store/detail?storeId=88888
 ```
 
 hbh 为 App 自定义的`URL Scheme`。
