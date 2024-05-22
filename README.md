@@ -62,7 +62,7 @@ export class HBHRouter {
   public static openUrl(urlString: string): void {
     if (urlString.startsWith("http")) {
       // 如果是网页，直接打开webView
-      // ... 代码身略
+      // ... 代码省略
     } else if (urlString.startsWith("hbh")) {
       // 如果是自定义hbh地址，解析URI参数和路径
       const url = Url.URL.parseURL(urlString);
