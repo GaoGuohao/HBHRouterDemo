@@ -217,3 +217,9 @@ struct Index {
 ## Demo示例
 github：https://github.com/GaoGuohao/HBHRouterDemo
 
+## 组件依赖
+
+已将组件发布到[鸿蒙公共仓库](https://ohpm.openharmony.cn/#/cn/detail/@gg%2Furlrouter)：
+```shell
+ohpm install @gg/urlrouter
+```
